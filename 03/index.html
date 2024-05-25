@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <p>
+            <label for="username">
+                Type your name
+            </label>
+            <input disabled id="username" type="text">
+        </p>
+        <p>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" placeholder="type lastName" type="text">
+        </p>
+        <p>
+            <label for="userpassword">Password</label>
+            <input id="userpassword" type="password">
+        </p>
+        <p> 
+            <label for="skills">Skills</label>
+            <!-- ul, ol -->
+            <select id="skills">
+                <option value="01">Html</option>
+                <option value="02">Vs code</option>
+                <option value="03">Git</option>
+                <option disabled value="04">CSS</option>
+            </select>
+        </p>
+        <p>
+            <textarea cols="30" rows="10" placeholder="type text"></textarea>
+        </p>
+        <p>
+            <label for="self">Self delivery</label>
+            <input type="radio" name="delivery" id="self">
+
+            <label for="np">Np delivery</label>
+            <input type="radio" name="delivery" id="np">
+
+            <label for="UA">UA post</label>
+            <input type="radio" name="delivery" id="UA">
+        </p>
+        <p>
+            <label for="car">Car</label>
+            <input type="checkbox" name="car" id="car">
+
+            <label for="bus">Bus</label>
+            <input type="checkbox" name="bus" id="bus">
+
+            <label for="bycicle">Bycicle</label>
+            <input type="checkbox" name="bycicle" id="bycicle">
+        </p>
+        <p>
+            <input type="submit" value="Send form">
+        </p>
+        <button>
+            button
+        </button>
+    </form> 
+    <div>
+        <img width="50" height="100" src="img/google-logo-transparent.png" alt="">
+        <h4>
+            Google
+        </h4>
+        <button>
+            Google click
+        </button>
+    </div>
+    <img width="100" height="200" src="img/google-logo-transparent.png" alt="Google logo">
+    <div>
+        <audio controls>
+            <source src=" " type="">
+        </audio>
+    </div>
+    <div>
+        <video width="520" height="400" controls>
+            <source src="mp4/file.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <iframe src="https://getbootstrap.com/" frameborder="0" width="800" height="800"></iframe>
+    </div>
+</body>
+</html>

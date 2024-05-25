@@ -1,0 +1,40 @@
+/* тег " *{} " красит все элементы */
+*{
+    color: blue;
+}
+body{
+    background-color: gray;
+}
+/* h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+} */
+
+/* p{
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-align: center;
+} */
+p,h3,h4,h5{
+    color: white;
+    text-align: center
+}
+/* DRY don't repeat yourself */
+p span{
+    color: orange;
+}
+li span{
+    color: blue;
+}
+
+div h3{
+    color: blueviolet;
+}
+section h3{
+    color: red;
+}
