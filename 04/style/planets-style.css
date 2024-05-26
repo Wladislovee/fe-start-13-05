@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.HW2{
+    
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    
+}
+
+h2{
+    font-family: Inter;
+    font-size: 40px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.left-content{
+    text-align: left;
+}
+
+.right-content{
+    text-align: right;
+}
+
+img[alt="mercury"]{
+    width: 300px;
+    height: 300px;
+    
+}
+
+img[alt="venera"]{
+width: 400px;
+height: 400px;
+}
+
+img[alt="zemlia"]{
+    width: 420px;
+    height: 400px;
+}
+
+img[alt="mars"]{
+    width: 400px;
+    height: 400px;
+}
+
+img[alt="jupiter"]{
+    width: 866px;
+    height: 467px;
+}
+
+img[alt="saturn"]{
+    width: 811px;
+    height: 420px;
+}
+
+img[alt="uran"]{
+    width: 450px;
+    height: 457.88px;
+}
+
+img[alt="neptun"]{
+    width: 454px;
+    height: 452px;
+}
+
+h3{
+    margin: 30px;
+    font-size: 32px;
+}
+
+.text-content{
+    text-align: left;
+    line-height: 19px;
+    font-family: Inter;
+    font-weight:400;
+    font-size: 16px;
+    margin: 30px;
+}
+
+a{
+    color: blue;
+}
