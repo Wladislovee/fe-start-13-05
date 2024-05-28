@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(239, 174, 185);
+    margin: 0;
+    font-family: sans-serif;
+}
+main{
+    width: 360px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255) ;
+    padding: 55px 20px 90px 24px;
+} 
+.menuimg{
+    margin-bottom: 30px;
+    border: none;
+    background: none;
+
+}
+.menutext{
+    margin-bottom: 17px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+h1,h4,h5{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+input{
+    margin-bottom: 28px; 
+    border-radius: 12px;
+    background: rgb(239, 239, 239);
+    border: none;
+    width: 100%;
+    padding: 22px;
+}
+.product-row{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 24px;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+}
+.img-block{
+    margin-bottom: 8px;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #EAE2B7;
+    
+    
+}
+.img-not-active{
+    background-color: #EFEFEF;
+}
+h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 17px;
+    line-height: 19px;
+    text-align: left;
+}
+.text-not-active{
+    color: #C4C4C4;
+}
+h3{
+    color: #003049;
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.product-proposition{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.proposition-item{
+    display: flex;
+    gap: 12px;
+    padding: 16px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+}
+.h4text{
+    margin-left: 0;
+    color: rgb(0, 48, 73);
+}
+h5{
+    color: rgb(214, 40, 40);
+    font-weight: 500;
+    font-size: 14px;
+
+}
+img[alt="fishburger"]{
+    margin-left: -7px;
+}
+.h4fish{
+    margin-left: -7px;
+}
+.h5fish{
+    margin-left: -7px;
+}
