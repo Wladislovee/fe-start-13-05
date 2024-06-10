@@ -15,37 +15,37 @@ body{
 .flex-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
 }
 .left-content{
     display: flex;
     align-items: center;
+    column-gap: 26px;
 }
 .netflix-logo{
-    margin-top: 70px;
     width: 156px;
     height: 48.33px;
 }
 .date{
-    margin-top: 77px;
     font-size: 24px;
     font-weight: 500;
     gap: 29px;
     color: rgb(200, 200, 200);
 }
 .search{
-    margin-top: 60.58px;
-    margin-right: 48.58px;
     border: none;
     background-color: transparent;
 }
 .usericon{
-    margin-top: 42px;
     margin-right: 33px;
 }
 .separator {
-    margin-top: 70px;
-    margin-left: 16px;
-    margin-right: 26px;
     border: 3px solid rgb(255, 255, 255);
     border: none;
 }
@@ -115,15 +115,45 @@ img[alt="play"]{
     color: #fff;
     padding: 16px 58px;
 }
+.bottom-content{
+    width: 906px;
+    
+}
+.popular-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 h2{
     font-size: 22px;
     font-weight: 800;
     letter-spacing: 3px;
+    margin-bottom: 32px;
+}
+.arrows{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.left{
+    background-color: transparent;
+    border: none;
+    border: 3px solid gray;
+    border-radius: 100%;
+}
+.right{
+    background-color: transparent;
+    border: none;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.another-films{
+    display: flex;
 }
 .list-films{
     list-style: none;
     display: flex;
     gap: 40px;
-    margin-left: -40px;
+    padding: 0;
     margin-bottom: 49px;
 }
