@@ -1,0 +1,447 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 67px;
+    padding: 40px 0px 40px 0px;
+  }
+
+body{
+    background-color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 93%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+    .flex {
+      flex-direction: column;
+      gap: 30px;
+    }
+    nav {
+        padding: 30px 0px 30px 0px;
+      }
+    }
+    
+    .wrapper.flex {
+      justify-content: space-between;
+    }
+    
+    .flex ul {
+      gap: 25px;
+    }
+
+    button{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+    }
+
+    .hireme-btn{
+        background-color:rgb(255, 183, 66);
+        border-radius: 50px;
+        border: 2px solid rgb(255, 183, 66);
+    }
+
+    .items-link{
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .items-link:hover{
+        color: rgb(255, 183, 66);
+    }
+
+    .main-person{
+        margin-bottom: 133px;
+    }
+    .hello{
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .Name-link{
+        text-decoration-line: underline;
+        color: white;
+    }
+    .Name-link:hover{
+        color: rgb(255, 183, 66);
+    }
+
+    h1{
+        text-align: center;
+        font-size: 48px;
+        font-family: "Inter", sans-serif;
+        line-height: 90px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .epigraph{
+        text-align: center;
+        text-transform: capitalize;
+        font-family: Inter;
+        font-style: normal;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 50px;
+        margin-bottom: 23px;
+    }
+    
+    .avatar{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .achievements{
+        margin-bottom: 215px;
+    }
+
+    .achievements-block{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        background-color: #292B2E;
+        padding: 25px 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 30%;
+    }
+
+    @media screen and (max-width: 720px) { 
+        .achievements-block{
+            width: 80%;
+        }
+    }
+
+    .achievements-block:hover {
+        background: linear-gradient(94deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 99%);
+    }
+
+    .achievements-block:hover .number{
+        color: rgb(33, 37, 41);
+    }
+
+    .achievements-block:hover .description{
+        color: rgb(33, 37, 41);
+    }
+
+    .number{
+        text-align: center;
+        color: #FFB742;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: capitalize;
+        line-height: 80%;
+    }
+
+    .description{
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+        text-transform: capitalize;
+        line-height: 190%;
+    }
+
+    .main-section{
+        margin-bottom: 110px;
+    }
+
+    .horizon{
+        justify-content: space-between;
+    }
+
+    .img-photo{
+        width: 36%;
+    }
+
+    .img-photo img{
+        width: 100%;
+    }
+
+    .person-description{
+        width: 45%;
+    }
+
+    h3{
+        display: inline-block;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFB742;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 50px;
+        margin-bottom: 24px;
+        padding: 5px 25px;
+    }
+
+    h2{
+       font-family: "Roboto", sans-serif;
+       font-size: 46px;
+       font-weight: 700;
+       line-height: 62px;
+       max-width: 515px;
+       margin-bottom: 35px; 
+    }
+
+    .text-description{
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        max-width: 670px;
+        color: #d5d5d5;
+        line-height: 30px;
+        margin-bottom: 55px;
+    }
+
+    .skills{
+        margin-bottom: 95px;
+    }
+
+    .skills-block{
+        width: 51%;
+    }
+
+    .skills-stack{
+        display: flex;
+        flex-wrap: wrap;
+        width: 48%;
+        max-width: 608px;
+    }
+
+    .stack-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #383E45;
+        border-radius: 10px;
+        padding: 16px 16px;
+        min-width: 80px;
+      }
+
+      .stack-item:hover{
+        background: linear-gradient(94deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 99%);
+      }
+
+      .featured-works{
+        margin-bottom: 125px;
+      }
+
+      .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+
+      .category{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 23px;
+      }
+
+      .category-btn{
+        color: #FFFFFF;
+        border: none;
+        background-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+      }
+
+      .category-btn:hover{
+        background-color:rgb(255, 183, 66);
+      }
+
+      .imgs-block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+      }
+
+      @media screen and (max-width: 720px) {
+        .imgs-block {
+          flex-direction: column;
+          width: 100%;
+          gap: 28px;
+        }
+      }
+
+.column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    width: 30%;
+}
+
+.column img{
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 720px) {
+    .column{
+      width: 100%;
+    }
+  }
+
+.testimonials{
+    margin-bottom: 250px;
+}
+
+.testimonials-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.test-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.test-item{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    padding: 50px 52px 50px 33px;
+}
+
+.stars{
+    display: flex;
+    color: #FFB742;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.test-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 292px;
+    margin-bottom: 35px;
+}
+
+.user{
+    display: flex;
+}
+
+.user img{
+    margin-right: 22px;
+}
+
+.user-info{
+    gap: 24px;
+}
+
+.user-name{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.user-job{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+@media screen and (max-width: 720px) {
+    .test-list {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+
+footer{
+    background-color: #1c1c1c;
+    font-family: "Poppins", sans-serif;
+    padding: 148px 0px 90px 0px;
+}  
+
+.top-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.name-footer{
+    color: #FFB742;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.job-footer{
+    color: #D4D4D4;
+}
+
+h5{
+    color: #F5FBF2;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+.link a{
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 37px;
+}
+
+.link a:hover{
+    color: #FFB742;
+}
+
+.email{
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    max-width: 300px;
+}
